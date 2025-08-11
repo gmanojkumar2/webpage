@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Learn about Agrenuity Electronics and our mission to empower farmers">
+  <title>contact - Agrenuity</title>
+  <link rel="stylesheet" href="about.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Hero Section -->
+<header class="position-fixed top-0 start-0 w-100 bg-light d-flex align-items-center justify-content-between px-4 py-2 z-3">
+  <!-- Logo on Left -->
+  <div class="d-flex align-items-center">
+    <img src="AGRENUITY-removebg-preview.png" alt="Agrenuity Logo" style="max-height: 90px;">
+  </div>
+
+  <!-- Desktop Nav (Right) -->
+  <nav class="d-none d-md-flex gap-4">
+    <a href="index.html" class="hero-link text-decoration-none text-dark">Home</a>
+    <a href="about.html" class="hero-link text-decoration-none text-dark">About</a>
+    <a href="products.html" class="hero-link text-decoration-none text-dark">Products</a>
+    <a href="gallery.html" class="hero-link text-decoration-none text-dark">Gallery</a>
+    <a href="contact.html" class="hero-link text-decoration-none text-dark">Contact</a>
+  </nav>
+
+  <!-- Mobile Hamburger -->
+  <button class="btn btn-outline-light d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<!-- Offcanvas Mobile Menu -->
+<div class="offcanvas offcanvas-end bg-dark text-white  " tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="mobileNavLabel">Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column gap-3">
+    <a href="index.html" class="text-white text-decoration-none">Home</a>
+    <a href="about.html" class="text-white text-decoration-none">About</a>
+    <a href="products.html" class="text-white text-decoration-none">Products</a>
+    <a href="gallery.html" class="text-white text-decoration-none">Gallery</a>
+    <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+  </div>
+</div>
+<!-- Contact Hero -->
+<section class="text-white text-center py-5" style="background: linear-gradient(to right, #004d40ab, #00695c);">
+  <div class="container">
+    <h2 class="mb-3">Contact Us</h2>
+    <p class="lead">We'd love to hear from you. Get in touch below.</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Contact Info Card -->
+      <div class="col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title mb-3">Contact Information</h3>
+            <p><strong>Email:</strong> <a href="mailto:agrenuityelectronicspvt.ltd@gmail.com">agrenuityelectronicspvt.ltd@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+919392556600">+91 9392556600</a></p>
+            <p><strong>Address:</strong><br>
+              91, Rd Number 1,<br>
+              Raji Reddy Colony,<br>
+              Sri Venkataramana Colony,<br>
+              Hastinapuram, Hyderabad,<br>
+              Telangana 500070
+            </p>
+            <h5 class="mt-4">Follow Us</h5>
+            <div class="d-flex gap-3">
+              <a href="https://www.instagram.com/agrenuity_electronics/" target="_blank">
+                <img src="instalogo.jpg" alt="Instagram" style="width: 30px;">
+              </a>
+              <a href="https://www.linkedin.com/company/agrenuity/" target="_blank">
+                <img src="linkdinlogo.png" alt="LinkedIn" style="width: 30px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form Card -->
+      <div class="col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title mb-3">Send Us a Message</h3>
+            <form action="https://formsubmit.co/agrenuityelectronicspvt.ltd@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+              </div>
+              <div class="mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+              </div>
+              <div class="mb-3">
+                <input type="tel" name="phone" class="form-control" placeholder="Phone Number" />
+              </div>
+              <div class="mb-3">
+                <select name="product" class="form-select" required>
+                  <option value="" disabled selected>Select a product</option>
+                  <option value="Agri Timer Remote">Agri Timer Remote</option>
+                  <option value="Agri Remote">Agri Remote</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-success w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map Card -->
+      <div class="col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body p-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.258418428083!2d78.5375!3d17.3366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb993c0b57e9d7%3A0x1efefc9f4b471adf!2s91%2C%20Rd%20Number%201%2C%20Raji%20Reddy%20Colony%2C%20Sri%20Venkataramana%20Colony%2C%20Hastinapuram%2C%20Hyderabad%2C%20Telangana%20500070!5e0!3m2!1sen!2sin!4v1620000000000"
+              width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4 mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start gy-4">
+      <div class="col-12 col-md-3">
+        <h5>Agrenuity Electronics</h5>
+        <p>Empowering Farmers, Ensuring Safety,<br>Through Innovative Electronics</p>
+      </div>
+      <div class="col-12 col-md-3">
+        <h6>Contact Us</h6>
+        <p>
+          ✉️ <a href="mailto:agrenuityelectronicspvt.ltd@gmail.com" class="text-white text-decoration-none">agrenuityelectronicspvt.ltd@gmail.com</a><br>
+          📞 <a href="tel:+919392556600" class="text-white text-decoration-none">+91 9392556600</a><br>
+          📍 Hyderabad, Telangana
+        </p>
+      </div>
+      <div class="col-12 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="products.html" class="text-white text-decoration-none">Products</a></li>
+           <li><a href="gallery.html" class="text-white text-decoration-none">Gallery</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <h6>Follow Us</h6>
+        <a href="https://www.instagram.com/agrenuity_electronics/" target="_blank" class="text-white d-block mb-1 text-decoration-none">
+          <img src="instalogo.jpg" alt="Instagram" style="width: 20px;"> @agrenuity_electronics
+        </a>
+        <a href="https://www.linkedin.com/company/agrenuity/" target="_blank" class="text-white text-decoration-none">🔗 LinkedIn</a>
+      </div>
+    </div>
+    <div class="text-center py-3 border-top mt-4">© 2025 Agrenuity Electronics Pvt Ltd. All Rights Reserved</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

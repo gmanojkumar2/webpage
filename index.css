@@ -1,0 +1,131 @@
+/* Reset and Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  height: 120vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('AGRENUITY5.png'); /* Desktop Background */
+  transition: background-image 0.4s ease-in-out;
+}
+
+/* Mobile Background with Overlay Image */
+@media (max-width: 768px) {
+  .hero {
+    background-image: url('wallsmall4.jpg');
+    height: 150vh;
+  }
+
+  /* .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('AGRENUITY-removebg-preview.png') no-repeat center center;
+    background-size: contain; /* or 'cover' if you want full overlay 
+    opacity: 0.8; adjust transparency if needed 
+    pointer-events: none; /* ensures overlay doesn't block clicks 
+  }
+ */
+}
+/* Navigation Links (Desktop) */
+.hero-link {
+  color: rgb(74, 61, 61);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.hero-link:hover {
+  color: #28a745;
+}
+
+/* Offcanvas Mobile Menu */
+.offcanvas {
+  width: 250px;
+}
+
+.offcanvas .offcanvas-body a {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.offcanvas .offcanvas-body a:hover {
+  color: #28a745;
+}
+
+/* Hamburger Button */
+/* Hamburger Button - Dark Green */
+.btn-outline-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='darkgreen' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  filter: none; /* remove previous invert effect */
+}
+/* 
+.btn-outline-light .navbar-toggler-icon {
+  filter: invert(1);
+} */
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  position: relative;
+}
+
+/* Top Line in Footer */
+footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #28a745;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+footer h5, footer h6 {
+  font-weight: 600;
+}
+
+footer p, footer li {
+  font-size: 0.95rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+ 
+  .hero-link {
+    font-size: 1rem;
+  }
+
+  footer .col-12 {
+    text-align: center;
+  }
+
+  .offcanvas .offcanvas-body {
+    text-align: left;
+  }
+}

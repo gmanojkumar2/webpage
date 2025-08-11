@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Learn about Agrenuity Electronics and our mission to empower farmers">
+  <title>Gallery - Agrenuity</title>
+  <link rel="stylesheet" href="about.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Hero Section -->
+<header class="position-fixed top-0 start-0 w-100 bg-light d-flex align-items-center justify-content-between px-4 py-2 z-3">
+  <!-- Logo on Left -->
+  <div class="d-flex align-items-center">
+    <img src="AGRENUITY-removebg-preview.png" alt="Agrenuity Logo" style="max-height: 90px;">
+  </div>
+
+  <!-- Desktop Nav (Right) -->
+  <nav class="d-none d-md-flex gap-4">
+    <a href="index.html" class="hero-link text-decoration-none text-dark">Home</a>
+    <a href="about.html" class="hero-link text-decoration-none text-dark">About</a>
+    <a href="products.html" class="hero-link text-decoration-none text-dark">Products</a>
+    <a href="gallery.html" class="hero-link text-decoration-none text-dark">Gallery</a>
+    <a href="contact.html" class="hero-link text-decoration-none text-dark">Contact</a>
+  </nav>
+
+  <!-- Mobile Hamburger -->
+  <button class="btn btn-outline-light d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<!-- Offcanvas Mobile Menu -->
+<div class="offcanvas offcanvas-end bg-dark text-white  " tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="mobileNavLabel">Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column gap-3">
+    <a href="index.html" class="text-white text-decoration-none">Home</a>
+    <a href="about.html" class="text-white text-decoration-none">About</a>
+    <a href="products.html" class="text-white text-decoration-none">Products</a>
+    <a href="gallery.html" class="text-white text-decoration-none">Gallery</a>
+    <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+  </div>
+</div>
+
+<!-- Gallery Hero -->
+<section class="gallery-hero text-white text-center py-5">
+  <div class="container">
+    <h2 class="mb-3">Our Gallery</h2>
+    <p class="lead">Explore our products, innovations, and milestones</p>
+  </div>
+</section>
+
+<!-- Static Image Grid -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+
+      <div class="col-6">
+
+        <img src="wall23.jpg" class="img-fluid rounded shadow" alt="Gallery Image 1">
+      </div>
+    <div class="col-6">
+
+        <img src="agriremote.jpg" class="img-fluid rounded shadow" alt="Gallery Image 2">
+      </div>
+      <div class="col-6">
+
+        <img src="AGRENUITY5.png" class="img-fluid rounded shadow" alt="Gallery Image 3">
+      </div>
+      <div class="col-6">
+
+        <img src="wallsmall1.jpg" class="img-fluid rounded shadow" alt="Gallery Image 4">
+      </div>
+       <div class="col-6">
+
+        <img src="wallsmall1.jpg" class="img-fluid rounded shadow" alt="Gallery Image 4">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4">
+  <div class="container">
+    <div class="row text-center text-md-start gy-4">
+      <div class="col-12 col-md-3">
+        <h5>Agrenuity Electronics</h5>
+        <p>Empowering Farmers, Ensuring Safety,<br>Through Innovative Electronics</p>
+      </div>
+      <div class="col-12 col-md-3">
+        <h6>Contact Us</h6>
+        <p>
+          ✉️ <a href="mailto:agrenuityelectronicspvt.ltd@gmail.com" class="text-white text-decoration-none">agrenuityelectronicspvt.ltd@gmail.com</a><br>
+          📞 <a href="tel:+919392556600" class="text-white text-decoration-none">+91 9392556600</a><br>
+          📍 Hyderabad, Telangana
+        </p>
+      </div>
+      <div class="col-12 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="products.html" class="text-white text-decoration-none">Products</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="gallery.html" class="text-white text-decoration-none">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <h6>Follow Us</h6>
+        <a href="https://www.instagram.com/agrenuity_electronics/" target="_blank" class="text-white d-block mb-1 text-decoration-none">
+          <img src="instalogo.jpg" alt="Instagram" style="width: 20px; vertical-align: middle;"> @agrenuity_electronics
+        </a>
+        <a href="https://www.linkedin.com/company/agrenuity/" target="_blank" class="text-white text-decoration-none">🔗 LinkedIn</a>
+      </div>
+    </div>
+    <div class="text-center py-3 border-top mt-4">© 2025 Agrenuity Electronics Pvt Ltd. All Rights Reserved</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const lightboxModal = document.getElementById('lightboxModal');
+  const lightboxImage = document.getElementById('lightboxImage');
+
+  lightboxModal.addEventListener('show.bs.modal', event => {
+    const button = event.relatedTarget;
+    const imgSrc = button.getAttribute('data-bs-img');
+    lightboxImage.src = imgSrc;
+  });
+</script>
+</body>
+</html>

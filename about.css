@@ -1,0 +1,284 @@
+/* Reset defaults */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Fix spacing for fixed navbar */
+body {
+  
+  padding-top: 70px; /* height of the fixed navbar */
+}
+.btn-outline-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='darkgreen' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  filter: none; /* remove previous invert effect */
+
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #003300;
+  margin-left: 15px;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #28a745 !important;
+}
+
+.founder-card {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #004d40ab, #00695c);
+  color: #fff;
+  text-align: center;
+  width: 100%;}
+/* Our Story Section */
+.story-full-width {
+  margin: 0;
+  padding: 0;
+}
+.story-card {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #004d40ab, #00695c);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.story-card h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.story-card p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* About Section */
+.about-full-width {
+  margin: 0;
+  padding: 0;
+}
+.about-card {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #01490198, #006600);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.about-card h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.about-card p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Mission & Vision Cards */
+.bg-light .card {
+  border: none;
+  border-radius: 10px;
+   background: linear-gradient(to right, #9ba8adab, #058b8d71);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.267);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bg-light .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.bg-light .card h4 {
+  color: #004d40;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Founder Section */
+section.py-5 {
+  
+  padding: 60px 20px;
+}
+.founder-section img {
+  border-radius: 12px;
+}
+.founder-section h3 {
+  font-weight: 600;
+  
+  margin-bottom: 15px;
+}
+.founder-section p {
+  
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+ /* Hero Section */
+.products-hero {
+background: linear-gradient(to right, #004d40ab, #00695c);
+  color: white;
+  margin-top: 0;
+  padding: 80px 0;
+}
+.products-hero h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.products-hero p {
+  font-size: 1.2rem;
+} */
+
+/* Product Cards */
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.price {
+  font-size: 1.2rem;
+}
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #218838;
+}
+ /* Gallery */
+/* Hero Section */
+.gallery-hero {
+background: linear-gradient(to right, #004d40ab, #00695c);
+  color: white;
+  padding: 80px 20px;
+}
+/* contact */
+
+/* Contact Hero Section */
+
+section.text-white {
+  
+  color: white;
+}
+section.text-white h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+section.text-white p {
+  font-size: 1.2rem;
+}
+
+/* Contact Section */
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+.card-body a {
+  color: #00695c;
+  text-decoration: none;
+}
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+form .form-control,
+form .form-select {
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+form textarea {
+  resize: none;
+}
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Map Card */
+.card iframe {
+  border-radius: 0 0 10px 10px;
+}
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  position: relative;
+}
+
+/* Top Line in Footer */
+footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #28a745;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+footer h5, footer h6 {
+  font-weight: 600;
+}
+
+footer p, footer li {
+  font-size: 0.85rem;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .story-card h2,
+  .about-card h2 {
+    font-size: 1.8rem;
+  }
+  .story-card p,
+  .about-card p {
+    font-size: 1rem;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+}
